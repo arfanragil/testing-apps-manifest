@@ -11,7 +11,4 @@ namespace: ragil
 images:
 - name: ragilarfan/golangechov2
   newName: asia-southeast1-docker.pkg.dev/sandbox-wahyu-anggana/kci-dev/testing-apps
-  newTag: v2
-- name: testing-apps
-  newName: asia-southeast1-docker.pkg.dev/sandbox-wahyu-anggana/kci-dev/testing-apps
-  newTag: dedb6e4
+  newTag: 8211d3f
