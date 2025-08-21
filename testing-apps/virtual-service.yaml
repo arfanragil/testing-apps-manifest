@@ -1,0 +1,19 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: testing-apps
+  namespace: ragil
+spec:
+  hosts:
+    - "testing.kci.dpdns.org"
+  gateways:
+    - istio-system/apps
+  http:
+    - match:
+        - uri:
+            prefix: /
+      route:
+        - destination:
+            host: testing-apps
+            port:
+              number: 80
