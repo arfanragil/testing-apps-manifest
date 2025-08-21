@@ -35,13 +35,3 @@ spec:
               port: 8080
             initialDelaySeconds: 10
             periodSeconds: 10
-          env:
-            - name: APP_ENV
-              value: "production"
-            - name: APP_DEBUG
-              value: "false"
-            - name: APP_KEY
-              valueFrom:
-                secretKeyRef:
-                  name: testing-apps-secrets
-                  key: app_key
