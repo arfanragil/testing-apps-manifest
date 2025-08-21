@@ -9,6 +9,8 @@ spec:
     repoURL: https://github.com/arfanragil/testing-apps-manifest.git
     targetRevision: main
     path: testing-apps
+    kustomize:
+      namePrefix: dev-
   destination:
     server: https://kubernetes.default.svc
     namespace: ragil
