@@ -6,12 +6,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/arfanragil/manifest.git
+    repoURL: https://github.com/arfanragil/testing-apps-manifest.git
     targetRevision: main
-    path:
+    path: testing-apps
   destination:
     server: https://kubernetes.default.svc
-    namespace: staging
+    namespace: ragil
   syncPolicy:
     automated:
       prune: true
