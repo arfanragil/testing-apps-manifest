@@ -11,4 +11,4 @@ namespace: ragil
 images:
 - name: testing-apps
   newName: asia-southeast1-docker.pkg.dev/sandbox-wahyu-anggana/kci-dev/testing-apps
-  newTag: 0ced5a5
+  newTag: 118ce9b
